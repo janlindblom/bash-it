@@ -19,11 +19,7 @@ afor() {
 }
 
 topp() {
-	if [ "o$1o" == "oo" ]; then
-		fields="1"
-	else
-		fields=$1
-	fi
+	fields=${1:-1}
 	cut -f$fields -d" " $HOME/.bash_history | sort | uniq -c | sort -nr | head -n 30
 }
 
