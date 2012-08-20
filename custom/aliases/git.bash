@@ -18,6 +18,8 @@ alias gra='git remote add'
 alias grr='git remote rm'
 # alias gs='git status'
 
+alias gflf='git flow feature'
+
 ## From bash_it's git.aliases.bash, since it clobbers gd in evil ways.
 
 # Aliases

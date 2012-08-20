@@ -23,5 +23,10 @@ topp() {
 	cut -f$fields -d" " $HOME/.bash_history | sort | uniq -c | sort -nr | head -n 30
 }
 
+cdls() {
+	cd "$@"
+	ls
+}
+
 export CLICOLOR
 
