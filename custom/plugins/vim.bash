@@ -8,3 +8,12 @@ function svim() {
 	fi
 }
 
+function pvim() {
+	if [ -f project.vim ]
+	then
+		vim -S project.vim "$@"
+	else
+		vim "$@"
+	fi
+}
+
