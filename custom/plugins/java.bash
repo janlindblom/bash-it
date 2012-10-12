@@ -1,5 +1,5 @@
 
-JAVA_HOME=/Library/Java/Home
+JAVA_HOME=`/usr/libexec/java_home -v 1.8.0`
 CATALINA_HOME=/Library/Tomcat/Home
 SCALA_HOME=/Library/Scala/Home
 CLOJURE_EXT=$HOME/.clojure.d/ext
