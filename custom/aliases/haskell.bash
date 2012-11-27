@@ -10,3 +10,13 @@ alias cbd='cabal configure -fdevelopment --enable-tests'
 alias cbb='cabal build'
 alias cbt='cabal test'
 
+alias cdb='cabal-dev'
+alias cdbi='cabal-dev install'
+alias cdbu='cabal-dev update'
+alias cdbcl='cabal-dev clean'
+alias cdbc='cabal-dev configure'
+alias cdbd='cabal-dev configure -fdevelopment --enable-tests'
+alias cdbb='cabal-dev build'
+alias cdbt='cabal-dev test'
+
+
