@@ -13,5 +13,5 @@ alias p='~/bin/pause'
 alias pd='/usr/local/bin/pass'
 
 alias f.='find .'
-alias fn-'find . -name'
+alias fn='find . -name'
 
