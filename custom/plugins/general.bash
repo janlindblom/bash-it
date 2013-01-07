@@ -28,5 +28,11 @@ cdls() {
 	ls
 }
 
+fdn() {
+	dir="$1"
+	shift
+	find $dir -name "$@"
+}
+
 export CLICOLOR
 
