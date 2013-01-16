@@ -7,6 +7,8 @@ alias lsa='lein spec -a'
 alias lr='lein repl'
 alias lrn='lein run'
 alias lrm='lein run -m'
+alias lrs='lein ring server'
+alias lcljs='lein cljsbuild auto'
 
 function lein-help() {
 	alias | grep -w lein | sort
