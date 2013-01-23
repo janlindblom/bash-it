@@ -1,5 +1,9 @@
 
-JAVA_HOME=`/usr/libexec/java_home -v 1.7.0`
+if [ -e /usr/libexec/java_home ]; then
+	JAVA_HOME=`/usr/libexec/java_home -v 1.7.0`
+else
+	JAVA_HOME=/usr/lib/jvm/jre-1.6.0
+fi
 CATALINA_HOME=/Library/Tomcat/Home
 SCALA_HOME=/Library/Scala/Home
 CLOJURE_EXT=$HOME/.clojure.d/ext
