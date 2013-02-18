@@ -1,0 +1,3 @@
+
+alias acknop='ack --nopager'
+
