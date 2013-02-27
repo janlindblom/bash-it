@@ -19,7 +19,7 @@ afor() {
 }
 
 topp() {
-	fields=${1:-1}
+	local fields=${1:-1}
 	cut -f$fields -d" " $HOME/.bash_history | sort | uniq -c | sort -nr | head -n 30
 }
 
@@ -29,9 +29,15 @@ cdls() {
 }
 
 fdn() {
-	dir="$1"
+	local dir="$1"
 	shift
 	find $dir -name "$@"
+}
+
+server() {
+	local port="${1:-8000}"
+	open "http://localhost:${port}/"
+	python -m SimpleHTTPServer "$port"
 }
 
 export CLICOLOR
