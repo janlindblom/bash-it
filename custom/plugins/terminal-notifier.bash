@@ -1,3 +1,3 @@
 
-PATH=$PATH:/Applications/terminal-notifier.app/Contents/MacOS/
+PATH=$PATH:/Applications/terminal-notifier.app/Contents/MacOS
 
