@@ -8,6 +8,7 @@ alias sds7="ssh sds-deployer@sds7.itc.virginia.edu"
 alias sds8="ssh sds-deployer@sds8.itc.virginia.edu"
 
 alias libsvr35="ssh libsvr35.lib.virginia.edu"
+alias libsvr36="ssh libsvr36.lib.virginia.edu"
 
 alias blue="ssh blue.unix.virginia.edu"
 alias utm="ssh utm.lib.virginia.edu"
@@ -36,6 +37,7 @@ sds7     => sds-deployer@sds7.itc.virginia.edu
 sds8     => sds-deployer@sds8.itc.virginia.edu
 
 libsvr35 => libsvr35.lib.virginia.edu
+libsvr36 => libsvr36.lib.virginia.edu
 
 blue     => blue.unix.virginia.edu
 utm      => utm.lib.virginia.edu
