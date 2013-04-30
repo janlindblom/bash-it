@@ -13,7 +13,7 @@ alias hm='hg commit -m'
 alias hma='hg commit --addremove -m'
 alias hcl='hg clone'
 alias hs='hg status'
-alias hsum='hg hummary'
+alias hsum='hg summary'
 
 hg-help() {
 	afor hg
