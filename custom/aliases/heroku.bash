@@ -6,7 +6,7 @@
 # heroku
 alias her='heroku'
 alias hls='heroku list'
-alias hi='heroku info'
+# alias hi='heroku info'
 alias ho='heroku open'
 
 # dynos and workers
