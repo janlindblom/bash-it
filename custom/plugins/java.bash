@@ -15,3 +15,13 @@ PATH=$SCALA_HOME/bin:$JENAROOT/bin:$TDBROOT/bin:$PATH
 
 export JAVA_HOME CATALINA_HOME SCALA_HOME CLOJURE_EXT CLOJURE_OPTS JENAROOT TDBROOT
 
+find-in-jar() {
+	target=$1
+	shift
+	for jar in "$@"; do
+		echo $jar
+		jar tf $jar | grep "$target"
+		echo
+	done
+}
+
