@@ -41,5 +41,9 @@ server() {
 	python -m SimpleHTTPServer "$port"
 }
 
+pp-json() {
+	cat "$@" | aeson-pretty | less
+}
+
 export CLICOLOR
 
