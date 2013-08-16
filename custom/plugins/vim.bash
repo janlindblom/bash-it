@@ -1,4 +1,8 @@
 
+if [ -d /usr/local/Cellar/macvim/7.4-70/MacVim.app/Contents/MacOS/ ]; then
+	PATH=$PATH:/usr/local/Cellar/macvim/7.4-70/MacVim.app/Contents/MacOS/
+fi
+
 function svim() {
 	if [ -f Session.vim ]
 	then
