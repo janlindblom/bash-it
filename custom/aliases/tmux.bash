@@ -5,4 +5,6 @@ alias tml='tmux ls'
 alias mo='mux open'
 
 alias txf='tmuxifier'
+alias txw='tmuxifier load-window'
+alias txs='tmuxifier load-session'
 
