@@ -1,0 +1,3 @@
+
+alias gr='go run'
+
