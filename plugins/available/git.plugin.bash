@@ -112,3 +112,27 @@ else
 fi
 }
 
+# Example: "github_clone swaroopch/dotbash"
+function github_clone {
+    git clone git://github.com/$*.git
+}
+
+function github_clone_ssh {
+    about 'Clones a GitHub repo using SSH'
+    group 'git'
+    param '1: repo user and name'
+    param '2: local directory to clone into'
+    example '$ github_clone_ssh nwinkler/bash-it ~/.bash_it'
+
+    git clone ssh://git@ssh.github.com:443/$1.git $2
+}
+
+function github_add_upstream {
+    about 'Adds an upstream repository (HTTPS)'
+    group 'git'
+    param '1: repo user and name'
+    example '$ github_add_upstream revans/bash-it'
+
+    git remote add upstream https://github.com/$1.git
+}
+
