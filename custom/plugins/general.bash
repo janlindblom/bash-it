@@ -3,7 +3,6 @@ CLICOLOR=1
 PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH
 
 ff() { find . -name "$@" -print; }
-lll() { ls -laF "$@" | less; }
 ds() { du -ak "$@" | sort -r -n | less; }
 psg() { ps ax | grep "$@" | grep -v grep; }
 histg() { history | grep "$@" | grep -v grep | grep -v histg; }
